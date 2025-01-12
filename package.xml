@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>autonomous_quadcopter_landing_system</name>
+  <version>0.0.1</version>
+  <description>The Autonomous Quadcopter Landing System</description>
+
+  <maintainer email="youremail@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>gazebo_ros</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+  </export>
+</package>

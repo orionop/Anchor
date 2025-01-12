@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+    <!-- Define the physics engine -->
+    <physics name="default_physics" type="ode">
+      <gravity>0 0 -9.81</gravity>
+    </physics>
+
+    <!-- Add a moving target -->
+    <model name="moving_target">
+      <pose>5 5 1 0 0 0</pose>  <!-- initial position -->
+      <link name="link">
+        <visual>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1.0</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>  <!-- red target -->
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Define a simple ground plane -->
+    <model name="ground_plane">
+      <pose>0 0 0 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+  </world>
+</sdf>

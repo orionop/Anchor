@@ -1,0 +1,15 @@
+<launch>
+    <!-- Start Gazebo simulation -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find quadcopter_landing)/sim/gazebo_worlds/moving_target.world"/>
+    </include>
+
+    <!-- Launch the quadcopter control node -->
+    <node name="quadcopter_control" pkg="quadcopter_landing" type="control_node.py" output="screen"/>
+
+    <!-- Camera for target tracking -->
+    <node name="target_tracking" pkg="quadcopter_landing" type="target_tracking.py" output="screen"/>
+
+    <!-- Launch the PID controller for flight control -->
+    <node name="pid_controller" pkg="quadcopter_landing" type="pid_controller.py" output="screen"/>
+</launch>

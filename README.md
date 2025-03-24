@@ -52,31 +52,5 @@ Once the simulation runs, you can control the quadcopter’s flight and landing 
 2. Launch Gazebo and ROS:
    ```roslaunch quadcopter_landing.launch```
 
-#### **Directory Structure**
-```plaintext
-autonomous-quadcopter-landing-system/
-├── docs/
-│   └── overview.md
-├── src/
-│   ├── flight_control/
-│   │   └── pid_controller.py
-│   ├── vision/
-│   │   └── target_tracking.py
-│   └── sensor_fusion/
-│       └── imu_gps_fusion.py
-├── launch/
-│   └── quadcopter_landing.launch
-├── sim/
-│   └── gazebo_worlds/
-│       └── moving_target.world
-├── requirements.txt
-├── README.md
-└── LICENSE
-
-
-
-
-
-
 
 

@@ -1,4 +1,4 @@
-# Autonomous Quadcopter Landing System (Anchor)
+# Anchor - An Autonomous Quadcopter Landing System
 
 An autonomous system for landing a quadcopter on a moving target using computer vision, sensor fusion, and PID control. The system integrates real-time data from cameras, IMUs, and GPS to guide the quadcopter to a stable landing on a moving target.
 
@@ -51,6 +51,9 @@ Once the simulation runs, you can control the quadcopter’s flight and landing 
 
 2. Launch Gazebo and ROS:
    ```roslaunch quadcopter_landing.launch```
+
+
+
 
 
 

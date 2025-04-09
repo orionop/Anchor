@@ -1,5 +1,7 @@
-numpy
-opencv-python
-scipy
-rospy
-pygazebo
+numpy>=1.21.0
+opencv-python>=4.5.3
+scipy>=1.7.0
+rospy>=1.15.0
+pygazebo>=3.0.0
+filterpy>=1.4.5  # For Kalman filter implementation
+PyYAML>=6.0  # For configuration management

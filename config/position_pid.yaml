@@ -1,0 +1,8 @@
+# Position PID Controller Configuration
+Kp: 0.8  # Proportional gain
+Ki: 0.05  # Integral gain
+Kd: 0.03  # Derivative gain
+
+# Anti-windup limits
+integral_max: 50.0
+integral_min: -50.0 

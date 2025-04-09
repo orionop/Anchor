@@ -1,0 +1,8 @@
+# Altitude PID Controller Configuration
+Kp: 1.0  # Proportional gain
+Ki: 0.1  # Integral gain
+Kd: 0.05  # Derivative gain
+
+# Anti-windup limits
+integral_max: 100.0
+integral_min: -100.0 

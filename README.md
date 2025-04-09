@@ -1,7 +1,6 @@
 # Anchor - Autonomous Quadcopter Landing System 🚁
 
 <div align="center">
-  <img src="docs/images/quadcopter.png" alt="Quadcopter Landing System" width="600"/>
   <br>
   <p>
     <b>An autonomous system for precise quadcopter landing on moving targets using computer vision and sensor fusion.</b>
